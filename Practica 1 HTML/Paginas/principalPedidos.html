@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="Cliente/Estilos/estilosPedidos.css" type="text/css">
+</head>
+<body >  
+    <!-- Estructura de header -->
+    <header> 
+            <img src="Imagenes/logoPasteleria.png" alt="logo" class="Logo"> 
+            <nav>
+                <ul class="linksNavegacion">
+                    <li><a href="index.html">Pasteleria</a></li>
+                    <li><a href="principalPedidos.html">Pedido</a></li>
+                    <li><a href="contactoPasteleria.html">Contactanos</a></li>
+                    <li><a href="almacenPastelero.html">Pastelero</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <!-- Seccion central de los pasteles y adornos -->
+
+    <section class="seccionGlobal">
+        <article class="artPasteles">
+
+            <!-- tabla de los sabores de pasteles -->
+
+            <table>
+                <tr>
+                    <td class="encabezadoPasteles" colspan="3" ><h2>Sabores de pasteles</h2></td>
+                </tr>
+                <tr>
+                    <td><img src="Imagenes/unatorre.jpg" alt=""><h1>Pastel de fresas con chocolate</h1></td>
+                    <td><img src="Imagenes/pastel2c.jpg" alt=""><h1>Pastel de dos pisos </h1></td>
+                    <td><img src="Imagenes/fresa3torres.jpg" alt=""><h1>Pastel de fresa de 3 pisss</h1></td>
+                </tr>
+                <tr>
+                    <td><img src="Imagenes/chocolate2.png" alt=""><h1>Pastel de chocolate</h1></td>
+                    <td><img src="Imagenes/cumplea;os5.jpg" alt=""><h1>Pastel de cumpleaños</h1></td>
+                    <td><img src="Imagenes/fresa2.png" alt=""><h1></h1>Pastel de fesas</td>
+                </tr>
+            </table>
+
+            <!-- tabla de los adornos a los pasteles -->
+
+            <table class="adornos">
+                <tr>
+                    <td class="encabezadoAdornos" colspan="3" ><h2>Adornos para los pasteles</h2></td>
+                </tr>
+                <tr>
+                    <td><img src="Imagenes/adornobodas.jpg" alt=""><h1>Adorno de bodas</h1></td>
+                    <td><img src="Imagenes/adornoCumpleños.jpg" alt=""><h1>Adorno de cumpleaños</h1></td>
+                    <td><img src="Imagenes/adornoflores.jpg" alt=""><h1>Adorno de flores</h1></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><img src="Imagenes/adornoregalo.jpg" alt=""><h1>Adorno de regalos</h1></td>
+                </tr>
+            </table>
+        </article>
+
+        <!-- Seccion para el formulario -->
+        <section class="formulario">
+            <article>
+                <!-- Formulario -->
+                <h2>Formulario del pedido</h2>
+                <label for="nombreCliente"> Ingrese su nombre:</label><br>
+                <input type="text" name="nombreCliente" id="nombreCliente"><br>
+                <label for="telCliente"> Telefono:</label><br>
+                <input type="tel" name="telCliente" id="telCliente"><br>
+                <label for="correoCliente"> Correo electronico:</label><br>
+                <input type="email" name="correoCliente" id="correoCliente" maxlength="10"><br>
+                <label for="desCliente"> Descripcion de general del pastel:</label><br>
+                <select name="desCliente" id="desCliente"><br>
+                    <option value="PastelfCho"> <h2>Pastel de fresas con chocolate</h2></option>
+                    <option value="PasteldosP"> <h2>Pastel de dos pisos</h2></option>
+                    <option value="PastelFP"> <h2>Pastel de fresas de 3 pisos</h2></option>
+                    <option value="PastelCho"> <h2>Pastel de chocolate</h2></option>
+                    <option value="PastelCumpl"> <h2>Pastel de cumpleaños</h2></option>
+                    <option value="PastelF"> <h2>Pastel de fresas</h2></option>
+                </select>
+                <br><br>
+                <label for="opciones" >Selecciona los adornos</label><br>
+                <input type="checkbox" id="opcionesAdornos" name="opcionesAdornos" class="checck">
+                <label for="opcionesAdornos" class="adornos">Adorno de bodas</label><br>
+                <input type="checkbox" id="opcionesAdornos" name="opcionesAdornos" class="checck">
+                <label for="opcionesAdornos" class="adornos">Adorno de cumpleaños</label><br>
+                <input type="checkbox" id="opcionesAdornos" name="opcionesAdornos" class="checck">
+                <label for="opcionesAdornos" class="adornos"> Adorno de flores</label><br>
+                <input type="checkbox" id="opcionesAdornos" name="opcionesAdornos" class="checck">
+                <label for="opcionesAdornos" class="adornos">Adorno de regalos</label><br>
+
+                <button>Enviar</button>
+            </article>
+        </section>
+    </section>
+</body>
+</html>

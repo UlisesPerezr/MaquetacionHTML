@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap');
+* {
+    /* Estilos para el cuerpo */
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+ /* Estilos para las lista de navegacion */
+
+li, a {
+    font-family: "Monserrat", sans-serif;
+    font-family: 500;
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+    text-decoration: none;    
+}
+
+ /* Estilo para el header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+ /* Estilo para la imagen del logo */
+.Logo {
+    cursor: pointer;
+}
+
+    /* Estilo para los links de navegacion */
+.linksNavegacion {
+    list-style: none;
+}
+
+ /* Estilos para el contenido en las listas */
+
+.linksNavegacion li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.almacen {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(122, 122, 180);
+    margin: 30px;
+}
+table {
+    margin-left: 60px;
+    border-color: brown;
+    border-style: ridge;
+    border-radius: 15px;
+    border-spacing: 10px;
+    background-color: brown;
+}
+
+table tr td {
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 30px;
+}
+
+section {
+    justify-content: center;
+    padding: 40px;
+    background-color: rgb(122, 122, 180);
+    margin: 30px;
+}
+
+.registros {
+    margin-left: 200px;
+}

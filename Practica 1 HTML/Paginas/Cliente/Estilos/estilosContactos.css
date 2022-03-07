@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap');
+* {
+    /* Estilos para el cuerpo */
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+ /* Estilos para las lista de navegacion */
+
+li, a {
+    font-family: "Monserrat", sans-serif;
+    font-family: 500;
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+    text-decoration: none;    
+}
+
+ /* Estilo para el header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+ /* Estilo para la imagen del logo */
+.Logo {
+    cursor: pointer;
+}
+
+    /* Estilo para los links de navegacion */
+.linksNavegacion {
+    list-style: none;
+}
+
+ /* Estilos para el contenido en las listas */
+
+.linksNavegacion li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+/* Estilos de la informacion*/
+
+section {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: rgb(184, 140, 224);
+}
+
+article {
+    background-color: rgb(184, 140, 224);
+    text-align: left;
+    padding: 30px;
+}
+
+
+.quienes {
+    font-size: 50px;
+    font-family: url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap');
+    background-color: rgb(184, 140, 224);
+    color: rgb(43, 40, 40);
+}
+
+.des {
+    font-size: 20px;
+    background-color: rgb(184, 140, 224);
+    color: rgb(43, 40, 40);
+    font-family: url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap');
+    text-align: justify;
+}
+
+hr {
+    border-color: black;
+    border-style: double;
+}

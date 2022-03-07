@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@800&display=swap');
+* {
+    /* Estilos para el cuerpo */
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+ /* Estilos para las lista de navegacion */
+
+li, a {
+    font-family: "Monserrat", sans-serif;
+    font-family: 500;
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+    text-decoration: none;    
+}
+
+ /* Estilo para el header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+ /* Estilo para la imagen del logo */
+.Logo {
+    cursor: pointer;
+}
+
+    /* Estilo para los links de navegacion */
+.linksNavegacion {
+    list-style: none;
+}
+
+ /* Estilos para el contenido en las listas */
+
+.linksNavegacion li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+    /* Estilos para las tablas */
+
+table {
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+    /* Estilos para las imagenes en las tablas */
+
+table tr td img{
+    width: 150px;
+    height: 150px;
+}
+    /* Estilos para los textos en las tablas */
+ 
+table tr td{
+    padding: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+    /*Estilos para los encabezados de la tabla de sabores */
+
+.encabezadoPasteles {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+
+    /* Estilos para los encabezados de las tabla de adornos */
+
+.encabezadoAdornos {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+}
+
+    /* Estilos para la seccion de las tablas */
+
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+    /* Estilos para los articulos dentro de las secciones*/
+
+article {
+    padding: 30px;
+    margin-right: 60px;
+    background-color: brown;
+}
+
+
+
